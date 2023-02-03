@@ -1,39 +1,45 @@
+
+:root{
+
+    --color-beige: #FFFBEB;
+    --color-light-blue: #ECF9FF;
+    --color-light-coral: #FFE7CC;
+    --color-orange-pinkish: #F8CBA6;
+
+}
+
 body{
     margin: 0px;
+    background-color: var(--color-light-blue);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: var(--color-orange-pinkish);
+    width: 5%;
+    border-width: 10px;
+
+
+
+
 }
 
 .top_head{
 
-    background-color: #D8CCA3;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    border: 10px;
-    border-style: solid;
-    border-color: black;
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
 }
 
+#top-name{
+    font-family: 'Twinkle Star', cursive;
+    font-size: xx-large;
 
-.mid_body{
-
-    height: 200px;
-    width: 200px    ;
-    background-color: aquamarine;
-    margin-left: 260px;
-    border: 20px;
-    border-color: black ;
-    border-style: solid;
-}
-
-
-.lower_body{
-
-    height: 200px;
-    width: 200px;
-    background-color: blueviolet;
-    border: 10px;
-    border-style: solid;
-    margin-left: 500px;
 }
 
 h1{
@@ -41,3 +47,40 @@ h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
+
+.div-central {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    margin: 0 auto 50px auto;
+    /* border: 1px solid; */
+
+
+}
+.kagome-bg{
+    max-width:100%;
+    max-height:100%;
+
+    position: absolute;
+}
+
+
+
+.inuyasha-logo-jp{
+
+    position: absolute;
+    width: 30%;
+    top: 85%;
+    left: 70%;
+
+}
+
+.inuyasha-logo-en{
+
+    position: absolute;
+    width: 30%;
+    top: 3%;
+    right: 72%
+
+}
+
