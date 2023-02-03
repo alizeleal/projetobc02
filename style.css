@@ -82,7 +82,24 @@ h1{
     position: absolute;
     width: 30%;
     top: 3%;
-    right: 72%
+    right: 72%;
 
 }
 
+.profile {
+
+    position: relative;
+    display: block;
+}
+
+.profile-text{
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+
+.profile-image{
+    position: relative;
+    left: 300px;
+}
