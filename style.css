@@ -60,6 +60,8 @@ ul{
 .bottom-info{
     margin-top: 20px;
     position: relative;
+    font-size: small;
+    text-decoration: none;
 }
 
 .contact-image{
@@ -145,7 +147,7 @@ ul{
 .profile-text{
     display: inline-block;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     width: 600px;
     text-align: justify;
