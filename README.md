@@ -1,4 +1,4 @@
-## Project for Webdevelopment Bootcamp
+## Project for Web Development Bootcamp
 
 This project is intendend to put into work the skills developed to this point in the course, which includes CSS and HTML.
 
