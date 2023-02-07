@@ -5,6 +5,9 @@
     --color-light-blue: #ECF9FF;
     --color-light-coral: #FFE7CC;
     --color-orange-pinkish: #F8CBA6;
+    --color-fonts-text: #b6580c;
+    --color-fonts-titles: #6b3408;
+
 
 }
 
@@ -13,6 +16,8 @@ body{
     background-color: var(--color-light-blue);
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    color: var(--color-fonts-text);
+    
 }
 
 h1{
@@ -34,13 +39,22 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: justify;
+    margin-left: 10%;
 }
 
 #top-name{
     font-family: 'Twinkle Star', cursive;
-    font-size: xx-large;
+    font-size: 400%;
     margin-top: 25px;
+    color: var(--color-fonts-titles);
 
+}
+
+#under-top-name{
+    font-size: 200%;
+    font-weight: normal;
+    color: var(--color-fonts-titles);
 }
 
 .bottom-container{
@@ -66,16 +80,45 @@ ul{
 
 .contact-image{
     position: relative;
+    top: 10%;
     left: -5%;
     
+}
+
+.current-work{
+
+    margin-bottom: 25%;
+    position: relative;
+}
+.current-work-images{
+
+    margin-bottom: 15%;
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    left: 0%;
+    top: 50%;
+}
+
+
+
+.current-work-text{
+    position: absolute;
+    display: inline-block;
+    width: 45%;
+    left:45%;
+    text-align: justify;
+
 }
 
 .contact-text{
         display: inline-block;
         position: absolute;
-        top: 20%;
-        left: 50%;
+        top: 0%;
+        left: 60%;
         width: 500px;
+        line-height: 2;
+        text-align: left;
 }
 
 .div-central {
@@ -87,7 +130,6 @@ ul{
 
 
 }
-
 
 .inuyasha-logo-en{
 
@@ -105,6 +147,14 @@ ul{
     top: 85%;
     left: 60%;
 
+}
+
+.inuyasha-logo-wip{
+
+    position: absolute;
+    width: 30%;
+    margin-top: 30%;
+    left: 65%;
 }
 
 .kagome-bg{
@@ -142,15 +192,24 @@ ul{
     display: inline-block;
     width: 1200px;
     text-align: center;
+    line-height: 2;
 }
 
 .profile-text{
     display: inline-block;
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 50%;
     width: 600px;
     text-align: justify;
+    line-height: 2;
+}
+
+.stranger-things-logo{
+    position: absolute;
+    width: 30%;
+    margin-top: 15%;
+    left: 50%;
 }
 
 .top_head{
@@ -165,8 +224,73 @@ ul{
 }
 
 
+.btn_link {
+    background: #6b3408;
+    background-image: -webkit-linear-gradient(top, #6b3408, #724a29);
+    background-image: -moz-linear-gradient(top, #6b3408, #724a29);
+    background-image: -ms-linear-gradient(top, #6b3408, #724a29);
+    background-image: -o-linear-gradient(top, #6b3408, #724a29);
+    background-image: linear-gradient(to bottom, #6b3408, #724a29);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
 
+.btn_link:hover {
+    background: #b6580c;
+    background-image: -webkit-linear-gradient(top, #b6580c, #F8CBA6);
+    background-image: -moz-linear-gradient(top, #b6580c, #F8CBA6);
+    background-image: -ms-linear-gradient(top, #b6580c, #F8CBA6);
+    background-image: -o-linear-gradient(top, #b6580c, #F8CBA6);
+    background-image: linear-gradient(to bottom, #b6580c, #F8CBA6);
+    text-decoration: none;
+}
 
+.btn_link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.oneshot-works{
+    display: inline-block;
+    background-color: var(--color-light-coral);
+    width: 20%;
+    height: 400px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    padding: 2%;
+    vertical-align: middle;
+}
+
+.wip-works{
+    display: inline-block;
+    background-color: var(--color-orange-pinkish);
+    width: 20%;
+    height: 400px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    padding: 2%;
+    vertical-align: middle;
+}
+
+.wip-line{
+
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.works-description{
+    position: inherit;
+    height: 350px;;
+}
 
 
 
